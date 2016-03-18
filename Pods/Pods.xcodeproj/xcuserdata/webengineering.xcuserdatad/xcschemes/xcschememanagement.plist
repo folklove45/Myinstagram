@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Firebase.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Myinstagram.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>29DFEA31D1191B05A99B637C4A1305DA</key>
+		<key>2CF663B3DEA4CB3D04D8736622C2F000</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2EBBF46191DC8AF7ADE8B01FE056AE50</key>
+		<key>44B7CDB7769AF7BFD88205BEDF2A3929</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A56BC889CAD59FA467E0EBF3A585D825</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B7AC9326D819482593FE118E915409D7</key>
+		<key>FC2F54087E0D1424D4ED1C851DF39A1E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

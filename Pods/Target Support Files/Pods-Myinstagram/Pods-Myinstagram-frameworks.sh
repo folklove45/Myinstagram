@@ -84,12 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Myinstagram/Firebase.framework"
   install_framework "Pods-Myinstagram/Realm.framework"
   install_framework "Pods-Myinstagram/RealmSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Myinstagram/Firebase.framework"
   install_framework "Pods-Myinstagram/Realm.framework"
   install_framework "Pods-Myinstagram/RealmSwift.framework"
 fi

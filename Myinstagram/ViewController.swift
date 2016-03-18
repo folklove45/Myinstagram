@@ -11,9 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func Username(sender: UITextField) {
-        let Kumu = Kumulos()
-        Kumu.createUserWithUsername
-        (,)
+        //let Kumu = Kumulos()
+        //Kumu.createUserWithUsername
+        //(,)
+    }
+    @IBAction func Password(sender: UITextField) {
+    
+    }
+    
+    @IBAction func Email(sender: UITextField) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,5 +33,6 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var Submit: UIButton!
+    @IBOutlet weak var Clear: UIButton!
 }
 
