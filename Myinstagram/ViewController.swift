@@ -9,18 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBAction func Username(sender: UITextField) {
-        //let Kumu = Kumulos()
-        //Kumu.createUserWithUsername
-        //(,)
-    }
-    @IBAction func Password(sender: UITextField) {
+    @IBOutlet weak var textUsername: UITextField!
+    @IBOutlet weak var textPassword: UITextField!
+    @IBOutlet weak var textConfiramPassword: UITextField!
+    @IBOutlet weak var textEmail: UITextField!
     
-    }
-    
-    @IBAction func Email(sender: UITextField) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,9 +23,19 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    @IBOutlet weak var Submit: UIButton!
-    @IBOutlet weak var Clear: UIButton!
+    @IBAction func buttonSignUp_OnClick() {
+        if textUsername.text == textPassword.text{
+            let KumuAPI = Kumulos()
+            KumuAPI.createUserWithUsername(textUsername.text, andPassword: textPassword.text, andEmail: textEmail.text, andAuthData: "test")
+        }
+    }
+    
+    @IBAction func buttonCancel_OnClick() {
+        textUsername.text = ""
+        textPassword.text = ""
+        textConfiramPassword.text = ""
+        textEmail.text = ""
+    }
+    
 }
 
